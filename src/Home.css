@@ -1,0 +1,54 @@
+.home {
+  overflow: hidden; /* Prevent scrolling and hide the scrollbar */
+  background-image: url('./movieBG.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    height: 100vh;
+
+}
+.container
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 120px 150px;
+}
+
+.container h1
+{
+  font-size: 45px;
+  margin: 0 1px;
+  color: white;
+}
+.container p
+{
+  font-size: 25px;
+  color:ghostwhite;
+/*  font-weight: 300px;*/
+  text-wrap: wrap;
+  width:55%;
+  text-align: justify;
+/*  background-color: yellow;*/
+}
+.btn-watch
+{
+  width: 180px;
+  height: 50px;
+  padding: 10px;
+  border-radius:30px;
+  border-style: none;
+  background-color: #f2a813;
+  font-size: 21px;
+  font-weight: bolder;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+
+}
+.btn-watch:hover
+{
+    transform: scale(1.05); /* Slightly scale up on hover */
+      box-shadow: -1px 3px 3px rgba(247, 246, 242,.4);
+
+}

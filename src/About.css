@@ -1,0 +1,27 @@
+.about-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  
+}
+
+.about-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fac83e;
+}
+
+.about-container p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  color: #bab8b1;
+}
+h3
+{
+  font-size: 1.5em;
+  text-align: center;
+  width: 100%;
+}

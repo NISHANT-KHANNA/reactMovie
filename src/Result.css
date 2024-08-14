@@ -1,0 +1,162 @@
+.result-container {
+  background-color: #171717;
+  width: 100%;
+  height: 97vh;
+  display: flex;
+}
+
+.img-container {
+/*  background-color: red;*/
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-top: 30px;
+  padding-right: 30px;
+
+}
+
+.movieImg {
+  width: 70%;
+  height: 70%;
+  border-radius: 10px;
+    box-shadow: 0px 6px 8px rgba(247, 246, 242,.4);
+
+}
+
+.info-container {
+/*  background-color: lightcyan;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 60%;
+  padding: 20px 10px;
+}
+
+.infoCon1 {
+/*  background-color: palegreen;*/
+}
+
+.infoCon2 {
+/*  background-color: lightyellow;*/
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+.infoCon3 {
+/*  background-color: lightskyblue;*/
+  display: flex;
+  flex-direction: column;
+}
+
+h1, p {
+  margin: 3px 0px;
+}
+h1
+{
+    color: #fac83e;
+
+}
+
+p {
+  font-size: 13px;
+  color: #e8e3cf;
+}
+
+h6 {
+  margin: 0px 0px;
+  font-size: 14px;
+  padding-bottom: 10px;
+  color: #e8e3cf;
+}
+
+h4 {
+  font-size: 16px;
+  width: 75%;
+  padding: 5px 0px;
+  color: #d9d7ce;
+}
+
+h5 {
+  font-size: 14px;
+  color: #e8e3cf;
+}
+
+h4, h5 {
+  margin: 3px 0px;
+}
+
+.icon-box {
+/*  background-color: lightgrey;*/
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px; /* space between the two rating items */
+  margin-bottom: 10px;
+}
+
+
+.rating-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+/*  background-color: red;*/
+}
+
+.watch-button {
+  padding: 5px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: background-color 0.3s ease;
+  width: 140px;
+  height: 40px;
+}
+
+.watch-button:hover {
+  background-color: grey;
+  color: white;
+}
+
+.button-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-group {
+  display: flex;
+  gap: 15px;
+}
+
+.small-icon {
+  transition: transform 0.5s ease;
+  width: 20px;
+  height: 20px;
+}
+
+.small-icon:hover {
+/*  background-color: lightgrey;*/
+  border-radius: 15px;
+  transform: scale(1.1);
+  width: 25px;
+  height: 25px;
+}

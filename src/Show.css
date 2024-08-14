@@ -1,0 +1,143 @@
+.show-home
+{
+/*  background-image:url('E:\reactles\movie\src\movieBG.jpg') ;*/
+  /*width: 100%;
+  height: 100vh;
+  background-color: yellow;
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;*/
+
+/*  background-color: lightgoldenrodyellow;*/
+/*  background-image: none;  Ensure no background image */
+ background-color: black;
+ height: 100%;
+/* width: 100%;*/
+}
+
+
+h2,h3{
+  color: whitesmoke;
+  margin: 0px 18px;
+/*  padding: 2px 10px;*/
+/*  margin: 10px 18px;*/
+  padding: 2px 10px;
+
+/*  background-color:#171717;*/
+/*  background-color: yellow;*/
+}
+.main-container
+{
+  width: 100%;
+/*  height: 100%;*/
+  flex-wrap: wrap;
+  background-color:#171717;
+/*  background-color: black;*/
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+  margin: 2px 0px;
+  padding: 10px 0px;
+}
+.movies,.series
+{
+  box-sizing: border-box;
+ width: 100%;
+/*  height: 100%;*/
+  flex-wrap: wrap;
+/*  background-color: black;*/
+  display: flex;
+  justify-content:flex-start;
+  align-items:center;
+/*  flex-direction: column;*/
+  gap: 15px;
+  color: white;
+  margin: 2px 0px;
+  padding: 10px 20px;
+/*  background-color: red;*/
+}
+.card
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+/*  background-color: lightcoral;*/
+  width:170px;
+/*  width: fit-content;*/
+/*  height:250px ;*/
+  height: fit-content;
+  padding: 10px 18px;
+   overflow: hidden;
+   transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;;
+}
+.card:hover {
+  transform: scale(1.05); /* Slightly scale up on hover */
+  box-shadow: 0px 6px 10px rgba(247, 246, 242,.4);
+  border-radius: 20px;
+  }
+.card:hover .movie-info h3
+{
+  color: #f7da65;
+}
+.poster
+{
+  width: 130px;
+  height: 130px;
+/*  background-color: yellow;*/
+}
+.movie-img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+
+/*  border: 1px solid white;*/
+}
+.movie-info
+{
+
+  font-size: 17px;
+/*  background-color: yellow;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding:2px 3px;
+  width:100%;
+  align-items: center;
+  text-align: center;
+ 
+}
+.movie-info h3
+{
+   text-overflow: ellipsis;
+   margin: 2px 0px;
+   white-space: nowrap;
+   overflow: hidden; 
+   width:100%
+/*   background-color: seagreen;*/
+}
+h2
+{
+  font-size: 20px;
+  color: #f5d57d;
+
+/*  margin-top: 0px;*/
+}
+/*h3:hover
+{
+  color: gold;
+}*/
+.h2
+{
+  margin-top: -18px;
+}
+h3{
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
+}
