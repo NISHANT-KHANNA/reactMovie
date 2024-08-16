@@ -68,7 +68,7 @@
 
 import React, {useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import "./Result.css";
+import "./Result.css"; 
 import imdb from './imdb1.png';
 import tomato from './tomato.png';
 import play from './play.png';
