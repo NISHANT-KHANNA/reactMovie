@@ -1,7 +1,7 @@
 import React from "react";
 import './Home.css'; // Import the Home-specific CSS
 import { useNavigate } from "react-router-dom";
-import Shows from "./Shows";
+// import Shows from "./Shows";
 const Home = () => {
   const navigate=useNavigate();
   const direct=()=>

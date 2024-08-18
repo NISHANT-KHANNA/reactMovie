@@ -18,7 +18,7 @@ const Shows = () => {
     setSeriesData(actResponse.Search);
   };
 
-  useEffect(() => {
+  useEffect(() => { 
     getMovie();
     getSeries();
   }, []);

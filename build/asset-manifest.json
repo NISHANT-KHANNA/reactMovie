@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/reactMovie/static/css/main.396e3209.css",
+    "main.js": "/reactMovie/static/js/main.9013deaf.js",
+    "static/media/movieBG.jpg": "/reactMovie/static/media/movieBG.0bd5508634de905bb0c9.jpg",
+    "static/media/tomato.png": "/reactMovie/static/media/tomato.052742e1e45cc571a3c4.png",
+    "static/media/trailer.png": "/reactMovie/static/media/trailer.f9f9c1001879373afdef.png",
+    "static/media/search.png": "/reactMovie/static/media/search.5aba3637fcdbac9edf17.png",
+    "index.html": "/reactMovie/index.html",
+    "main.396e3209.css.map": "/reactMovie/static/css/main.396e3209.css.map",
+    "main.9013deaf.js.map": "/reactMovie/static/js/main.9013deaf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.396e3209.css",
+    "static/js/main.9013deaf.js"
+  ]
+}
