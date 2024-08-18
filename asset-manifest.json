@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/reactMovie/static/css/main.b34208df.css",
-    "main.js": "/reactMovie/static/js/main.26b9249e.js",
+    "main.css": "/reactMovie/static/css/main.b8cbb952.css",
+    "main.js": "/reactMovie/static/js/main.c853d797.js",
     "static/media/movieBG.jpg": "/reactMovie/static/media/movieBG.0bd5508634de905bb0c9.jpg",
     "static/media/tomato.png": "/reactMovie/static/media/tomato.052742e1e45cc571a3c4.png",
     "static/media/trailer.png": "/reactMovie/static/media/trailer.f9f9c1001879373afdef.png",
     "static/media/search.png": "/reactMovie/static/media/search.5aba3637fcdbac9edf17.png",
     "index.html": "/reactMovie/index.html",
-    "main.b34208df.css.map": "/reactMovie/static/css/main.b34208df.css.map",
-    "main.26b9249e.js.map": "/reactMovie/static/js/main.26b9249e.js.map"
+    "main.b8cbb952.css.map": "/reactMovie/static/css/main.b8cbb952.css.map",
+    "main.c853d797.js.map": "/reactMovie/static/js/main.c853d797.js.map"
   },
   "entrypoints": [
-    "static/css/main.b34208df.css",
-    "static/js/main.26b9249e.js"
+    "static/css/main.b8cbb952.css",
+    "static/js/main.c853d797.js"
   ]
 }
